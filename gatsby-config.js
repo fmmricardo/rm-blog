@@ -19,11 +19,5 @@ module.exports = {
         path: `${__dirname}/src/BlogPosts`,
       },
     },
-    {
-      resolve: 'gatsby-plugin-typography',
-      options: {
-        pathToConfigModule: 'src/components/typography',
-      },
-    },
   ],
 }
