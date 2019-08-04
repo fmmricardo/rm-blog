@@ -1,11 +1,13 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
+import './index.css'
+
 const TitleAndDescription = ({ data }) => {
   const title = data.site.siteMetadata.title
   const description = data.site.siteMetadata.description
   return (
-    <div>
+    <div className="headerWrapper">
       <h1>{title}</h1>
       <p>{description}</p>
     </div>

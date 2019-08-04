@@ -2,22 +2,29 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 
 import Header from '../components/Header'
+import Layout from '../components/Layout'
 
-const Layout = ({ data }) => {
+import './index.css'
+
+const IndexPage = ({ data }) => {
   const { edges } = data.allMarkdownRemark
 
   return (
-    <div>
+    <Layout>
       <Header />
       {edges.map(edge => {
         const { frontmatter } = edge.node
         return (
-          <div key={frontmatter.path}>
-            <Link to={frontmatter.path}>{frontmatter.title}</Link>
+          <div key={frontmatter.path} className="cardWrapper">
+            <Link className="link" to={frontmatter.path}>
+              {frontmatter.title}
+            </Link>
+            <p>{frontmatter.excerpt}</p>
+            <p>{frontmatter.date}</p>
           </div>
         )
       })}
-    </div>
+    </Layout>
   )
 }
 
@@ -30,11 +37,12 @@ export const query = graphql`
           frontmatter {
             title
             path
-            date
+            excerpt
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }
     }
   }
 `
-export default Layout
+export default IndexPage
