@@ -5,5 +5,19 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: 'Ricardo Martins Blog',
+    description: 'I created this blog to give back to comunity',
+  },
+  plugins: [
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+  ],
 }
