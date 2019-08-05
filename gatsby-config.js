@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Ricardo Martins Blog',
-    description: 'I created this blog to give back to comunity',
+    description: 'Blog',
   },
   plugins: [
     `gatsby-transformer-remark`,
@@ -19,6 +19,14 @@ module.exports = {
         path: `${__dirname}/src/BlogPosts`,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/src/images`,
+        name: 'images',
+      },
+    },
+
     {
       resolve: 'gatsby-transformer-remark',
       options: {

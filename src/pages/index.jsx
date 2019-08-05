@@ -3,6 +3,8 @@ import { graphql, Link } from 'gatsby'
 
 import Header from '../components/Header'
 import Layout from '../components/Layout'
+import Card from '../components/Card'
+import CardList from '../components/CardList'
 
 import './index.css'
 
@@ -12,18 +14,27 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Header />
-      {edges.map(edge => {
-        const { frontmatter } = edge.node
-        return (
-          <div key={frontmatter.path} className="cardWrapper">
-            <Link className="link" to={frontmatter.path}>
-              {frontmatter.title}
-            </Link>
-            <p>{frontmatter.excerpt}</p>
-            <p>{frontmatter.date}</p>
-          </div>
-        )
-      })}
+      <CardList>
+        {edges.map(edge => {
+          const { frontmatter } = edge.node
+          return (
+            <Card>
+              <div key={frontmatter.path} className="cardWrapper">
+                <Link className="link" to={frontmatter.path}>
+                  {frontmatter.title}
+                </Link>
+                <img
+                  className="cardPostImage"
+                  src={frontmatter.thumbnail}
+                  alt=""
+                />
+                <p>{frontmatter.excerpt}</p>
+                <p>{frontmatter.date}</p>
+              </div>
+            </Card>
+          )
+        })}
+      </CardList>
     </Layout>
   )
 }
@@ -39,6 +50,7 @@ export const query = graphql`
             path
             excerpt
             date(formatString: "MMMM DD, YYYY")
+            thumbnail
           }
         }
       }

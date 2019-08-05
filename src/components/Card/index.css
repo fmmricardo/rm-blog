@@ -1,0 +1,39 @@
+@import '../settings.css';
+
+card {
+	padding: var(--size-32);
+	display: flex;
+	flex-direction: row;
+	font-family: var(--font-family-monsterrat);
+	border-bottom: 1px solid #eee;
+	color: #000;
+}
+
+.cardPostTextPreview {
+}
+
+.cardPostTitle,
+.cardPostTextPreview {
+	color: #000;
+	margin-left: var(--size-24);
+}
+
+.cardPostTitle {
+	font-size: var(--size-32);
+	padding: var(--size-10) 0;
+	font-weight: var(--font-weight-bold);
+}
+
+.cardPostDate {
+	color: #999;
+	margin-left: 20px;
+}
+
+.cardPostTextPreview {
+	margin-top: 20px;
+}
+
+.cardPostImage img {
+	width: 100%;
+	margin-right: 100px;
+}

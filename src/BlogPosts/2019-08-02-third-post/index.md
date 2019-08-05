@@ -1,7 +1,9 @@
 ---
 path: /pages/third-post
-date: "2019-04-09"
+date: '2019-04-09'
 title: Dalsland Runt
+thumbnail: /images/commodore.jpg
+
 excerpt: This is my first post
 ---
 

@@ -1,0 +1,14 @@
+.cardList {
+	width: 95%;
+	max-width: 1000px;
+	margin: 0 auto;
+
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+	grid-gap: 20px;
+}
+
+.cardList li:first-child {
+	grid-column: 1 / -1;
+}

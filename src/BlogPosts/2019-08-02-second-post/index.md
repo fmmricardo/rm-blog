@@ -2,6 +2,8 @@
 path: /pages/second-post
 date: 2019-04-09
 title: asdas
+thumbnail: /images/commodore.jpg
+
 excerpt: This is my first post
 ---
 
