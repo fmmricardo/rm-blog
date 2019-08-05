@@ -1,5 +1,18 @@
+@import '../settings.css';
+
 .headerWrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	font-family: var(--font-family-monsterrat);
+}
+
+.title {
+	font-size: var(--size-56);
+	line-height: var(--size-76);
+}
+
+.description {
+	font-size: var(--size-32);
+	line-height: var(--size-42);
 }
