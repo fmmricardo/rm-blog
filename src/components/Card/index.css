@@ -34,3 +34,8 @@
 .cardPostTextPreview {
 	margin-top: 20px;
 }
+
+.Card-PostImage img {
+	width: 100%;
+	margin-right: 100px;
+}

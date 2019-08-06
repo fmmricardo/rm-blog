@@ -2,7 +2,7 @@
 path: /pages/Vim-Is-Not-A-Monster
 date: 2019-04-09
 title: Vim is not a monster.
-thumbnail: /src/images/commodore.jpg
+thumbnail: /images/commodore.jpg
 excerpt: How and why I started to use Vim.
 ---
 
