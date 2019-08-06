@@ -2,7 +2,7 @@
 path: /pages/From-Chemical-to-Frontend
 date: '2019-08-06'
 title: From Chemical Engineer to Front-End Developer
-thumbnail: '../src/content/images/commodore.jpg'
+thumbnail: '/src/content/images/commodore.jpg'
 
 excerpt: How I learned coding and entered the tech industry
 ---
