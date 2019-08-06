@@ -6,8 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Ricardo Martins Blog',
-    description: 'Blog',
+    title: 'Ricardo Martins ',
+    description:
+      'Frontend developer with focus on user experience and a flair for design. Always looking for something new to learn and willing to help those around him.',
   },
   plugins: [
     `gatsby-plugin-postcss`,
