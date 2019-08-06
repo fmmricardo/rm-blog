@@ -4,8 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import './index.css'
 
 const TitleAndDescription = ({ data }) => {
-  const title = data.site.siteMetadata.title
-  const description = data.site.siteMetadata.description
+  const { title, description } = data.site.siteMetadata
   return (
     <div className="headerWrapper">
       <p className="headerTitle">{title}</p>
