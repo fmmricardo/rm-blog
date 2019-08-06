@@ -17,16 +17,9 @@ const IndexPage = ({ data }) => {
       <CardList>
         {edges.map(edge => {
           const { id } = edge.node
-          const {
-            date,
-            excerpt,
-            path,
-            title,
-            thumbnail,
-          } = edge.node.frontmatter
+          const { date, excerpt, path, title } = edge.node.frontmatter
           return (
             <Card key={id}>
-              <img className="Card-PostImage" src={thumbnail} alt={title} />
               <div key={path} className="cardPostPreview">
                 <Link className="cardPostTitle" to={path}>
                   {title}
@@ -44,7 +37,7 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query HomepageQuery {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           id

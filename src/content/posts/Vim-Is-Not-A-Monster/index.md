@@ -3,7 +3,7 @@ path: /pages/Vim-Is-Not-A-Monster
 date: 2019-04-09
 title: Vim is not a monster.
 thumbnail: /images/commodore.jpg
-excerpt: How and why I started to use Vim.
+excerpt: The first time I heard about Vim I didn’t even know what it was. I started to search about that and asking around … and in general people avoid to use that. Some say it is time consuming learning vim, others don’t want to suffer, others say that you can really make your workflow more efficient, but in general, people don’t want to go into it.
 ---
 
 ![](./commodore.jpg)

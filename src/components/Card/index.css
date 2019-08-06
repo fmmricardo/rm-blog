@@ -3,36 +3,37 @@
 .card {
 	padding: var(--size-32);
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	font-family: var(--font-family-monsterrat);
 	border-bottom: 1px solid #eee;
-	color: #000;
+	color: var(--color-snow-black);
 }
 
 .cardPostTitle,
 .cardPostTextPreview {
 	color: #000;
-	margin-left: var(--size-24);
 }
 
 .cardPostTitle {
 	text-decoration: none;
-	font-size: var(--size-32);
+	font-size: var(--size-24);
+	line-height: var(--size-32);
 	padding: var(--size-10) 0;
 	font-weight: var(--font-weight-bold);
 }
 
 .cardPostTitle:hover {
-	color: pink;
+	color: var(--color-snow-blue);
 }
 
 .cardPostDate {
 	color: #999;
-	margin-left: 20px;
 }
 
 .cardPostTextPreview {
 	margin-top: 20px;
+	font-size: var(--size-18);
+	line-heigth: var(--size-24);
 }
 
 .Card-PostImage img {

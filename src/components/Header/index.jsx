@@ -8,8 +8,8 @@ const TitleAndDescription = ({ data }) => {
   const description = data.site.siteMetadata.description
   return (
     <div className="headerWrapper">
-      <p className="title">{title}</p>
-      <p className="description">{description}</p>
+      <p className="headerTitle">{title}</p>
+      <p className="headerDescription">{description}</p>
     </div>
   )
 }

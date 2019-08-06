@@ -2,6 +2,8 @@
 	--color-gray: #f0f4fd;
 	--color-white: #fff;
 	--color-black: #1d204a;
+	--color-snow-blue: #5e81ac;
+	--color-snow-black: #3b4252;
 
 	--color-placeholder: color(var(--color-black) a(75%));
 	--color-text-dark: rgba(29, 32, 73, 0.75);

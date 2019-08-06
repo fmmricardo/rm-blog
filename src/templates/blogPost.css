@@ -1,18 +1,45 @@
 @import '../../src/components/settings.css';
 
-.wrapper {
+a,
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--color-snow-blue);
+}
+
+.blogWrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.title {
+.blogTitle {
+	color: var(--color-snow-black);
+	display: flex;
+	flex-direction: row;
+	align-items: start;
 }
 
-.content {
+.blogContent {
+	font-size: var(--size-18);
+	line-height: var(--size-24);
+	color: var(--color-snow-black);
 	margin: var(--size-32) auto;
 }
 
-.postNavigation {
-	height: 20vh;
+.blogNavigation {
+	display: flex;
+}
+
+.previousLink,
+.nextLink,
+.homeLink {
+	font-size: var(--size-18);
+	line-height: var(--size-24);
+	color: #000;
+	font-weight: var(--font-weight-bold);
+	margin: 0 var(--size-24);
 }

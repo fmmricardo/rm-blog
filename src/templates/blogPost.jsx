@@ -13,20 +13,32 @@ const Template = ({ data, pageContext }) => {
   const html = markdownRemark.html
   return (
     <Layout>
-      <div className="wrapper">
-        <h1 className="title">{title}</h1>
-        <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
-        <div className="postNavegation">
-          {previous && (
-            <Link to={previous.frontmatter.path} rel="prev">
-              ← Prev
+      <div className="blogWrapper">
+        <h1 className="blogTitle">{title}</h1>
+        <div
+          className="blogContent"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        <div className="blogNavigation">
+          <div className="previousLink">
+            {previous && (
+              <Link to={previous.frontmatter.path} rel="prev">
+                ← Prev
+              </Link>
+            )}
+          </div>
+          <div className="homeLink">
+            <Link to="/" rel="prev">
+              Homepage
             </Link>
-          )}
-          {next && (
-            <Link to={next.frontmatter.path} rel="next">
-              Next →
-            </Link>
-          )}
+          </div>
+          <div className="nextLink">
+            {next && (
+              <Link to={next.frontmatter.path} rel="next">
+                Next →
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </Layout>
