@@ -10,20 +10,26 @@ module.exports = {
     description: 'Blog',
   },
   plugins: [
-    `gatsby-transformer-remark`,
     `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
-        path: `${__dirname}/src/BlogPosts`,
+        path: `${__dirname}/src/content/posts`,
+        name: `markdown-pages`,
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/content/images`,
         name: 'images',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
 
@@ -41,13 +47,6 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 590,
-              wrapperStyle: 'margin-bottom: 1.0725rem',
-            },
-          },
-          {
-            resolve: `gatsby-plugin-typography`,
-            options: {
-              pathToConfigModule: `src/utils/typography`,
             },
           },
         ],

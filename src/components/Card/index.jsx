@@ -5,7 +5,7 @@ import './index.css'
 
 export default class Card extends Component {
   render() {
-    return <article className="card">{this.props.children}</article>
+    return <div className="card">{this.props.children}</div>
   }
 }
 

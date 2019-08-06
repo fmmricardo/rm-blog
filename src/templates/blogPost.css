@@ -1,3 +1,5 @@
+@import '../../src/components/settings.css';
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -8,7 +10,7 @@
 }
 
 .content {
-	height: 60vh;
+	margin: var(--size-32) auto;
 }
 
 .postNavigation {

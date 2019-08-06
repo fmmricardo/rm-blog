@@ -19,17 +19,12 @@ const IndexPage = ({ data }) => {
           const { frontmatter } = edge.node
           return (
             <Card>
-              <div key={frontmatter.path} className="cardWrapper">
-                <Link className="link" to={frontmatter.path}>
+              <div key={frontmatter.path} className="cardPostPreview">
+                <Link className="cardPostTitle" to={frontmatter.path}>
                   {frontmatter.title}
                 </Link>
-                <img
-                  className="cardPostImage"
-                  src={frontmatter.thumbnail}
-                  alt=""
-                />
-                <p>{frontmatter.excerpt}</p>
-                <p>{frontmatter.date}</p>
+                <p className="cardPostTextPreview">{frontmatter.excerpt}</p>
+                <p className="cardPostDate">{frontmatter.date}</p>
               </div>
             </Card>
           )

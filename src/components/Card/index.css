@@ -1,15 +1,12 @@
 @import '../settings.css';
 
-card {
+.card {
 	padding: var(--size-32);
 	display: flex;
 	flex-direction: row;
 	font-family: var(--font-family-monsterrat);
 	border-bottom: 1px solid #eee;
 	color: #000;
-}
-
-.cardPostTextPreview {
 }
 
 .cardPostTitle,
@@ -19,9 +16,14 @@ card {
 }
 
 .cardPostTitle {
+	text-decoration: none;
 	font-size: var(--size-32);
 	padding: var(--size-10) 0;
 	font-weight: var(--font-weight-bold);
+}
+
+.cardPostTitle:hover {
+	color: pink;
 }
 
 .cardPostDate {
@@ -31,9 +33,4 @@ card {
 
 .cardPostTextPreview {
 	margin-top: 20px;
-}
-
-.cardPostImage img {
-	width: 100%;
-	margin-right: 100px;
 }
