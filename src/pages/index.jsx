@@ -16,15 +16,16 @@ const IndexPage = ({ data }) => {
       <Header />
       <CardList>
         {edges.map(edge => {
-          const { frontmatter } = edge.node
+          const { id } = edge.node
+          const { date, excerpt, path, title } = edge.node.frontmatter
           return (
-            <Card>
-              <div key={frontmatter.path} className="cardPostPreview">
-                <Link className="cardPostTitle" to={frontmatter.path}>
-                  {frontmatter.title}
+            <Card key={id}>
+              <div key={path} className="cardPostPreview">
+                <Link className="cardPostTitle" to={path}>
+                  {title}
                 </Link>
-                <p className="cardPostTextPreview">{frontmatter.excerpt}</p>
-                <p className="cardPostDate">{frontmatter.date}</p>
+                <p className="cardPostTextPreview">{excerpt}</p>
+                <p className="cardPostDate">{date}</p>
               </div>
             </Card>
           )
