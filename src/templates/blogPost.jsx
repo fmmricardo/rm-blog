@@ -29,7 +29,7 @@ const Template = ({ data, pageContext }) => {
           </div>
           <div className="homeLink">
             <Link to="/" rel="prev">
-              Homepage
+              Home
             </Link>
           </div>
           <div className="nextLink">

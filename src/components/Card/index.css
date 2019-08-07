@@ -3,12 +3,14 @@
 .card {
   display: flex;
   flex-direction: column;
-  padding: var(--size-32);
 
   border-bottom: 1px solid #eee;
   color: var(--color-snow-black);
 
   font-family: var(--font-family-monsterrat);
+  @media (--tablet-breakpoint) {
+    padding: var(--size-32);
+  }
 }
 
 .cardPostTitle,
@@ -19,11 +21,16 @@
 .cardPostTitle {
   padding: var(--size-10) 0;
 
-  font-size: var(--size-24);
+  font-size: var(--size-18);
 
   font-weight: var(--font-weight-bold);
-  line-height: var(--size-32);
+  line-height: var(--size-24);
   text-decoration: none;
+
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-24);
+    line-height: var(--size-32);
+  }
 }
 
 .cardPostTitle:hover {
@@ -31,14 +38,18 @@
 }
 
 .cardPostDate {
-  color: #999;
+  color: var(--color-gray);
 }
 
 .cardPostTextPreview {
   margin-top: 20px;
 
-  font-size: var(--size-18);
-  line-heigth: var(--size-24);
+  font-size: var(--size-14);
+  line-heigth: var(--size-18);
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-18);
+    line-height: var(--size-24);
+  }
 }
 
 .Card-PostImage img {

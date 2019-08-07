@@ -1,0 +1,14 @@
+@import '../settings.css';
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: var(--size-10);
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  font-size: var(--size-42);
+}

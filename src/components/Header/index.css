@@ -17,13 +17,25 @@
 }
 
 .headerTitle {
-  font-size: var(--size-56);
-  line-height: var(--size-76);
+  font-size: var(--size-32);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-42);
+
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-32);
+    line-height: var(--size-42);
+  }
 }
 
 .headerDescription {
-  padding: var(--size-32);
+  font-size: var(--size-18);
+  line-height: var(--size-24);
 
-  font-size: var(--size-24);
-  line-height: var(--size-32);
+  @media (--tablet-breakpoint) {
+    padding: var(--size-32);
+
+    font-size: var(--size-24);
+
+    line-height: var(--size-32);
+  }
 }

@@ -1,5 +1,5 @@
 :root {
-  --color-gray: #f0f4fd;
+  --color-gray: #5e81ac;
   --color-white: #fff;
   --color-black: #1d204a;
   --color-snow-blue: #5e81ac;
@@ -28,6 +28,5 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 
-  @custom-media --tablet-breakpoint (min-width: 700px);
-  @custom-media --background-breakpoint (min-width: 1024px);
+  @custom-media --tablet-breakpoint (min-width: 760px);
 }
