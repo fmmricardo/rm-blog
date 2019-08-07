@@ -17,6 +17,21 @@ a:hover {
   align-items: center;
 }
 
+.blogBackToHomepage {
+  margin: var(--size-24);
+
+  color: var(--color-snow-black);
+
+  font-size: var(--size-18);
+
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-24);
+
+  @media (--tablet-breakpoint) {
+    margin: var(--size-32) auto;
+  }
+}
+
 .blogTitle {
   display: flex;
   flex-direction: row;
