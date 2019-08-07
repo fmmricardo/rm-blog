@@ -15,6 +15,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .blogBackToHomepage {
@@ -43,6 +44,8 @@ a:hover {
 }
 
 .blogContent {
+  width: 100%;
+
   color: var(--color-snow-black);
 
   font-size: var(--size-18);

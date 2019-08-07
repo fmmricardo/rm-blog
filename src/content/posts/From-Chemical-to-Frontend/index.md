@@ -9,7 +9,7 @@ excerpt: How I learned coding and entered the tech industry
 
 ![](./change.jpg)
 
-                          Photo by Ross Findon on Unsplash
+Photo by Ross Findon on Unsplash
 
 > Three years ago, I started learning to code as a hobby, far from knowing that I would end up becoming a front-end developer.
 > Last year, I went more in depth, and I dedicated 100% of my time doing a course about front-end and UX design.
