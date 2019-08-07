@@ -1,11 +1,11 @@
-[build-page]: https://semaphoreci.com/fmmricardo/rm-challenge
+[build-page]: https://semaphoreci.com/ricardofmm/rm-challenge
 
 # Publishing Platform
 
-[![Build Status](https://semaphoreci.com/api/v1/fmmricardo/rm-challenge/branches/master/badge.svg)](https://fmmricardo.semaphoreci.com)
+[![Build Status](https://semaphoreci.com/api/v1/projects/64991d2a-e7f5-4306-be71-0b2d6bbbd7ed/2852881/badge.svg)](https://semaphoreci.com/ricardofmm/rm-challenge)
 
 - [Build Page][build-page]
-- [Production](https://tndsblog.netlify.com)
+- [Production](https://fmmblog.netlify.com)
 
 Platform to publish personal blog posts
 
