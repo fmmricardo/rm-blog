@@ -1,5 +1,5 @@
 ---
-path: /pages/TNDS-Challenge-Week
+path: /pages/tnds-challenge-week
 date: '2018-08-01'
 title: TNDS Challenge Week
 thumbnail: /images/commodore.jpg

@@ -6,9 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Learning to Share ',
+    title: "Hi, I'm Ricardo.",
     description:
-      'My name is Ricardo, a Frontend developer with focus on user experience and a flair for design. Always looking for something new to learn and willing to help those around him.',
+      "I'm a Frontend developer with focus on user experience and a flair for design. Always looking for something new to learn and willing to help those around me.",
   },
   plugins: [
     `gatsby-plugin-postcss`,

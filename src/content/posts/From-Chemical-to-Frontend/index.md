@@ -1,5 +1,5 @@
 ---
-path: /pages/From-Chemical-to-Frontend
+path: /pages/from-chemical-to-frontend
 date: '2019-08-06'
 title: From Chemical Engineer to Front-End Developer
 thumbnail: '/src/content/images/commodore.jpg'

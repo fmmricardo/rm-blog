@@ -38,6 +38,8 @@ a:hover {
   align-items: start;
 
   color: var(--color-snow-black);
+
+  font-weight: var(--font-weight-bold);
 }
 
 .blogContent {
