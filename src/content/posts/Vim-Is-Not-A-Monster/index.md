@@ -8,7 +8,8 @@ excerpt: The first time I heard about Vim I didn’t even know what it was. I st
 
 ![](./commodore.jpg)
 
-> The first time I heard about Vim I didn’t even know what it was. I started to search about that and asking around … and in general people avoid to use that. Some say it is time consuming learning vim, others don’t want to suffer, others say that you can really make your >workflow more efficient, but in general, people don’t want to go into it.
+> The first time I heard about Vim I didn’t even know what it was. I started to search about that and asking around … and in general people avoid to use that. Some say it is time consuming learning vim, others don’t want to suffer, others say that you can really make your
+> workflow more efficient, but in general, people don’t want to go into it.
 
 ##Why I Choose Vim
 
@@ -37,6 +38,6 @@ Use post-its to learn the commands, and put them on the bottom of your screen. R
 
 In fact, this is useful for other things too, like memorizing git scripts.
 
--> [I found a cool tutorial from Thoughtbot](https://www.thoughtbot.com/upcase)
+→ [I found a cool tutorial from Thoughtbot](https://www.thoughtbot.com/upcase)
 
 → [Youtube channel with nice screencasts](https://www.youtube.com/channel/UCXPHFM88IlFn68OmLwtPmZA)

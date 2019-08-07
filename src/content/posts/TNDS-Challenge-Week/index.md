@@ -9,7 +9,7 @@ excerpt: In today’s tech space, having a healthy, well-maintained pattern libr
 
 ![](./working_dev.jpg)
 
-This project started during the masterclass with Javier ‘Simón’ Cuello at The New Digital School . Javier is a UX designer specializing in mobile, currently living in Barcelona, who has worked on app design projects for companies like Zara, Telefónica, and Yahoo and is also the co-author of Designing Mobile Apps.
+This project started during the masterclass with Javier ‘Simón’ Cuello at The New Digital School. Javier is a UX designer specializing in mobile, currently living in Barcelona, who has worked on app design projects for companies like Zara, Telefónica, and Yahoo and is also the co-author of Designing Mobile Apps.
 
 ##The challenge
 
@@ -45,19 +45,21 @@ For TNDS, this collection of elements has the purpose of keep consistency allowi
 We started by identifying some patterns such as Typography, buttons, cards, navbar, forms, and labels.
 
 ![](./buttons.png)
+
 Fig 1. Buttons from interface inventory
 
 ![](./cards.png)
+
 Fig 2. UI card components collected from the website and mobile app prototype
 
-image
 ![](./cards_1.png)
+
 Fig 3.UI card components collected from the website and mobile app prototype
 
 I knew there were tools to help you avoid building a pattern library from scratch and I found a few like Atomic and Astrum and proceeded to test both. Astrum was the chosen one because it’s lightweight, easy to include in projects and because it offers a command-line to manage components and groups. Astrum is also responsive and I loved how easy it was to customize the theme.
 
-image
 ![](./Pattern-library-overwiew.png)
+
 Fig 4. Pattern library overview
 
 With style sheets getting larger and harder to maintain, CSS preprocessors like Sass help by keeping style sheets concise and allowing to modularize the code while offering a set of features not yet available in regular CSS.
@@ -66,7 +68,7 @@ Learning a new tool takes time and finding the time to do so is sometimes very h
 While working with Astrum I realized the number of concepts I would be able to learn and try. By doing that I covered methodologies like Atomic Design, Block Element Modifier (BEM) and, implemented preprocessors like Sass and technologies like CSS grid.
 
 ##Takeaways
-Plan before doing
+###Plan before doing
 
 We spent a considerable amount of time planning ahead. This helped to avoid frustration at the end of the project.
 
@@ -90,14 +92,14 @@ We started this project in the context of a UI Masterclass but we ended up doing
 
 ##Resources
 
-[BEM](http://getbem.com/)
+→ [BEM](http://getbem.com/)
 
-[Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
+→ [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/)
 
-[Smashing Magazine “Taking The Pattern Library To The Next Level“ by Vitaly Friedman](https://www.smashingmagazine.com/taking-pattern-libraries-next-level/)
+→ [Smashing Magazine “Taking The Pattern Library To The Next Level“ by Vitaly Friedman](https://www.smashingmagazine.com/taking-pattern-libraries-next-level/)
 
-[fmmricardo-Twitter](https://twitter.com/FMMRicardo)
+→ [fmmricardo-Twitter](https://twitter.com/FMMRicardo)
 
-[fmmRicardo-Github](https://github.com/fmmricardo)
+→ [fmmRicardo-Github](https://github.com/fmmricardo)
 
-[Imran](https://twitter.com/imran_rahim_pt)
+→ [Imran](https://twitter.com/imran_rahim_pt)
