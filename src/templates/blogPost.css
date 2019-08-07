@@ -2,44 +2,51 @@
 
 a,
 a:visited {
-	color: #000;
-	text-decoration: none;
+  color: #000;
+
+  text-decoration: none;
 }
 
 a:hover {
-	color: var(--color-snow-blue);
+  color: var(--color-snow-blue);
 }
 
 .blogWrapper {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blogTitle {
-	color: var(--color-snow-black);
-	display: flex;
-	flex-direction: row;
-	align-items: start;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+
+  color: var(--color-snow-black);
 }
 
 .blogContent {
-	font-size: var(--size-18);
-	line-height: var(--size-24);
-	color: var(--color-snow-black);
-	margin: var(--size-32) auto;
+  margin: var(--size-32) auto;
+
+  color: var(--color-snow-black);
+
+  font-size: var(--size-18);
+  line-height: var(--size-24);
 }
 
 .blogNavigation {
-	display: flex;
+  display: flex;
 }
 
 .previousLink,
 .nextLink,
 .homeLink {
-	font-size: var(--size-18);
-	line-height: var(--size-24);
-	color: #000;
-	font-weight: var(--font-weight-bold);
-	margin: 0 var(--size-24);
+  margin: 0 var(--size-24);
+
+  color: #000;
+
+  font-size: var(--size-18);
+
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-24);
 }

@@ -1,42 +1,47 @@
 @import '../settings.css';
 
 .card {
-	padding: var(--size-32);
-	display: flex;
-	flex-direction: column;
-	font-family: var(--font-family-monsterrat);
-	border-bottom: 1px solid #eee;
-	color: var(--color-snow-black);
+  display: flex;
+  flex-direction: column;
+  padding: var(--size-32);
+
+  border-bottom: 1px solid #eee;
+  color: var(--color-snow-black);
+
+  font-family: var(--font-family-monsterrat);
 }
 
 .cardPostTitle,
 .cardPostTextPreview {
-	color: #000;
+  color: #000;
 }
 
 .cardPostTitle {
-	text-decoration: none;
-	font-size: var(--size-24);
-	line-height: var(--size-32);
-	padding: var(--size-10) 0;
-	font-weight: var(--font-weight-bold);
+  padding: var(--size-10) 0;
+
+  font-size: var(--size-24);
+
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-32);
+  text-decoration: none;
 }
 
 .cardPostTitle:hover {
-	color: var(--color-snow-blue);
+  color: var(--color-snow-blue);
 }
 
 .cardPostDate {
-	color: #999;
+  color: #999;
 }
 
 .cardPostTextPreview {
-	margin-top: 20px;
-	font-size: var(--size-18);
-	line-heigth: var(--size-24);
+  margin-top: 20px;
+
+  font-size: var(--size-18);
+  line-heigth: var(--size-24);
 }
 
 .Card-PostImage img {
-	width: 100%;
-	margin-right: 100px;
+  width: 100%;
+  margin-right: 100px;
 }

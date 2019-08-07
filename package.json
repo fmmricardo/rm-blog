@@ -10,7 +10,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "yarn run develop",
     "serve": "gatsby serve",
-    "lint-css": "stylelint -s css src",
+    "lint-css": "stylelint -s scss src",
     "lint-js": "eslint --ext .jsx --ext .js src",
     "lint": "yarn run lint-js && yarn run lint-css",
     "test": "yarn run lint "
@@ -45,9 +45,5 @@
     "prettier": "^1.18.2",
     "stylelint": "^9.6.0",
     "stylelint-order": "1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   }
 }

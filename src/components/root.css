@@ -2,21 +2,21 @@
 
 html,
 body {
-	color: var(--color-snow-dark);
+  color: var(--color-snow-dark);
 
-	font-family: var(--font-family-monsterrat);
-	font-size: var(--size-16);
-	line-height: var(--size-20);
-	font-weight: var(--font-weight-regular);
+  font-family: var(--font-family-monsterrat);
+  font-size: var(--size-16);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--size-20);
 
-	@media (--tablet-breakpoint) {
-		font-size: var(--size-18);
-		line-height: var(--size-24);
-	}
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-18);
+    line-height: var(--size-24);
+  }
 }
 
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }

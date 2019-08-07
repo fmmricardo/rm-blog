@@ -1,27 +1,29 @@
 @import '../settings.css';
 
 .headerWrapper {
-	width: 100%;
-	margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
 
-	grid-auto-flow: row;
+  color: var(--color-snow-black);
 
-	font-family: var(--font-family-monsterrat);
+  font-family: var(--font-family-monsterrat);
 
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	font-family: var(--font-family-monsterrat);
-	color: var(--color-snow-black);
+  font-family: var(--font-family-monsterrat);
+
+  grid-auto-flow: row;
 }
 
 .headerTitle {
-	font-size: var(--size-56);
-	line-height: var(--size-76);
+  font-size: var(--size-56);
+  line-height: var(--size-76);
 }
 
 .headerDescription {
-	font-size: var(--size-24);
-	line-height: var(--size-32);
-	padding: var(--size-32);
+  padding: var(--size-32);
+
+  font-size: var(--size-24);
+  line-height: var(--size-32);
 }

@@ -1,33 +1,33 @@
 :root {
-	--color-gray: #f0f4fd;
-	--color-white: #fff;
-	--color-black: #1d204a;
-	--color-snow-blue: #5e81ac;
-	--color-snow-black: #3b4252;
+  --color-gray: #f0f4fd;
+  --color-white: #fff;
+  --color-black: #1d204a;
+  --color-snow-blue: #5e81ac;
+  --color-snow-black: #3b4252;
 
-	--color-placeholder: color(var(--color-black) a(75%));
-	--color-text-dark: rgba(29, 32, 73, 0.75);
-	--color-text-light: rgba(255, 255, 255, 0.75);
+  --color-placeholder: color(var(--color-black) a(75%));
+  --color-text-dark: rgba(29, 32, 73, 0.75);
+  --color-text-light: rgba(255, 255, 255, 0.75);
 
-	--size-6: 6px;
-	--size-8: 8px;
-	--size-10: 10px;
-	--size-14: 14px;
-	--size-18: 18px;
-	--size-24: 24px;
-	--size-32: 32px;
-	--size-42: 42px;
-	--size-56: 56px;
-	--size-76: 76px;
-	--size-100: 100px;
-	--size-180: 180px;
+  --size-6: 6px;
+  --size-8: 8px;
+  --size-10: 10px;
+  --size-14: 14px;
+  --size-18: 18px;
+  --size-24: 24px;
+  --size-32: 32px;
+  --size-42: 42px;
+  --size-56: 56px;
+  --size-76: 76px;
+  --size-100: 100px;
+  --size-180: 180px;
 
-	--font-family-monsterrat: 'Montserrat', sans-serif;
-	--font-family-lato: 'Lato', sans-serif;
+  --font-family-monsterrat: 'Montserrat', sans-serif;
+  --font-family-lato: 'Lato', sans-serif;
 
-	--font-weight-regular: 400;
-	--font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 
-	@custom-media --tablet-breakpoint (min-width: 700px);
-	@custom-media --background-breakpoint (min-width: 1024px);
+  @custom-media --tablet-breakpoint (min-width: 700px);
+  @custom-media --background-breakpoint (min-width: 1024px);
 }
