@@ -15,7 +15,7 @@ const Template = ({ data, pageContext }) => {
     <Layout>
       <div className="blogWrapper">
         <div className="blogBackToHomepage">
-          <Link to="/ ">Back to Homepage</Link>
+          <Link to="/">Back to Homepage</Link>
         </div>
         <h1 className="blogTitle">{title}</h1>
         <div
