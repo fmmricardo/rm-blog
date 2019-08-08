@@ -28,5 +28,5 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 
-  @custom-media --tablet-breakpoint (min-width: 760px);
+  @custom-media --tablet-breakpoint (min-width: 767px);
 }
