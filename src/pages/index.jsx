@@ -1,12 +1,10 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Header from '../components/Header'
 import Layout from '../components/Layout'
 import Card from '../components/Card'
 import CardList from '../components/CardList'
-
-import './index.css'
 
 const IndexPage = ({ data }) => {
   const { edges } = data.allMarkdownRemark
@@ -19,15 +17,13 @@ const IndexPage = ({ data }) => {
           const { id } = edge.node
           const { date, excerpt, path, title } = edge.node.frontmatter
           return (
-            <Card key={id}>
-              <div key={path} className="cardPostPreview">
-                <Link className="cardPostTitle" to={path}>
-                  {title}
-                </Link>
-                <p className="cardPostTextPreview">{excerpt}</p>
-                <p className="cardPostDate">{date}</p>
-              </div>
-            </Card>
+            <Card
+              key={id}
+              path={path}
+              title={title}
+              excerpt={excerpt}
+              date={date}
+            />
           )
         })}
       </CardList>

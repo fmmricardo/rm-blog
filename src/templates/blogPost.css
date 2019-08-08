@@ -59,25 +59,3 @@ a:hover {
 .blogNavigation {
   display: flex;
 }
-
-.previousLink,
-.nextLink,
-.homeLink {
-  width: var(--size-76);
-  height: var(--size-76);
-  margin-top: var(--size-14);
-
-  color: #000;
-
-  font-size: var(--size-14);
-
-  font-weight: var(--font-weight-bold);
-  line-height: var(--size-18);
-
-  @media (--tablet-breakpoint) {
-    margin: 0 var(--size-24);
-
-    font-size: var(--size-18);
-    line-height: var(--size-24);
-  }
-}

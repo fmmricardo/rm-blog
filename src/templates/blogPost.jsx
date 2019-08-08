@@ -4,6 +4,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/Layout'
+import BlogLink from '../components/BlogLink'
 import './blogPost.css'
 
 const Template = ({ data, pageContext }) => {
@@ -15,7 +16,7 @@ const Template = ({ data, pageContext }) => {
     <Layout>
       <div className="blogWrapper">
         <div className="blogBackToHomepage">
-          <Link to="/">Back to Homepage</Link>
+          <BlogLink text="Back to Homepage" path="/" />
         </div>
         <h1 className="blogTitle">{title}</h1>
         <div
@@ -23,23 +24,23 @@ const Template = ({ data, pageContext }) => {
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <div className="blogNavigation">
-          <div className="previousLink">
+          <div>
             {previous && (
-              <Link to={previous.frontmatter.path} rel="prev">
-                ← Prev
-              </Link>
+              <BlogLink
+                style="previousLink"
+                text="← Prev"
+                path={previous.frontmatter.path}
+              />
             )}
           </div>
-          <div className="homeLink">
-            <Link to="/" rel="prev">
-              Home
-            </Link>
-          </div>
-          <div className="nextLink">
+          <BlogLink style="homeLink" text="Home" path="/" />
+          <div>
             {next && (
-              <Link to={next.frontmatter.path} rel="next">
-                Next →
-              </Link>
+              <BlogLink
+                style="nextLink"
+                text="Next →"
+                path={next.frontmatter.path}
+              />
             )}
           </div>
         </div>

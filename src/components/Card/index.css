@@ -13,9 +13,24 @@
   }
 }
 
+.cardPostDate {
+  color: var(--color-gray);
+}
+
 .cardPostTitle,
 .cardPostTextPreview {
   color: #000;
+}
+
+.cardPostTextPreview {
+  margin-top: 20px;
+
+  font-size: var(--size-14);
+  line-heigth: var(--size-18);
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-18);
+    line-height: var(--size-24);
+  }
 }
 
 .cardPostTitle {
@@ -32,22 +47,10 @@
     line-height: var(--size-32);
   }
 }
-
 .cardPostTitle:hover {
   color: var(--color-snow-blue);
 }
 
-.cardPostDate {
-  color: var(--color-gray);
-}
-
-.cardPostTextPreview {
-  margin-top: 20px;
-
-  font-size: var(--size-14);
-  line-heigth: var(--size-18);
-  @media (--tablet-breakpoint) {
-    font-size: var(--size-18);
-    line-height: var(--size-24);
-  }
+.cardPostPreview {
+  margin-top: var(--size-24);
 }

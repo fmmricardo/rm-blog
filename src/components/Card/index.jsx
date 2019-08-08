@@ -1,14 +1,28 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import './index.css'
 
-export default class Card extends Component {
-  render() {
-    return <div className="card">{this.props.children}</div>
-  }
+const Card = ({ path, excerpt, title, date }) => {
+  return (
+    <div className="card">
+      <div className="cardPostPreview">
+        <Link className="cardPostTitle" to={path}>
+          {title}
+        </Link>
+        <p className="cardPostTextPreview">{excerpt}</p>
+        <p className="cardPostDate">{date}</p>
+      </div>
+    </div>
+  )
 }
 
 Card.propTypes = {
-  children: PropTypes.node.isRequired,
+  date: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  excerpt: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
 }
+
+export default Card
