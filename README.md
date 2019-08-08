@@ -73,6 +73,27 @@ This project has automatic deploys enabled on branch master. Check [build page][
 yarn deploy
 ```
 
+## Add new posts
+
+To add new posts the only requirement is adding a new markdown file under the folder
+
+- src/content/posts
+
+It's important to add the the text below on the top of the file, to pass the contained information to the components.
+
+example:
+
+```
+---
+path: /pages/tnds-challenge-week
+date: '2018-08-01'
+title: TNDS Challenge Week
+thumbnail: /images/commodore.jpg
+
+excerpt: In today’s tech space, having a healthy...
+---
+```
+
 ## Contribution Guidelines
 
 Contributions must follow [Airbnb's guides](https://github.com/airbnb/javascript).
