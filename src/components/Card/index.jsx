@@ -8,11 +8,15 @@ const Card = ({ path, excerpt, title, date }) => {
   return (
     <div className="card">
       <div className="cardPostPreview">
-        <Link className="cardPostTitle" to={path}>
+        <Link className="cardPostTitle" data-test="post-title" to={path}>
           {title}
         </Link>
-        <p className="cardPostTextPreview">{excerpt}</p>
-        <p className="cardPostDate">{date}</p>
+        <p className="cardPostTextPreview" data-test="post-preview">
+          {excerpt}
+        </p>
+        <p className="cardPostDate" data-test="post-date">
+          {date}
+        </p>
       </div>
     </div>
   )
