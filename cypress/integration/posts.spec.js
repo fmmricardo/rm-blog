@@ -14,4 +14,8 @@ describe('input form', () => {
   it('verify if a post has date', () => {
     cy.get('[data-test=post-date]')
   })
+
+  it('it has all attributes, title,path, excerpt,date ', () => {
+    cy.get('[data-test=card-attributes]').find('key')
+  })
 })
