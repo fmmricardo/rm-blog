@@ -4,6 +4,10 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config()
+}
+
 module.exports = {
   siteMetadata: {
     title: "Hi, I'm Ricardo.",
@@ -27,6 +31,14 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `u1k1mar9m88d`,
+        accessToken: process.env.CONTENFUL_ACESS_TOKEN,
+      },
+    },
+
     {
       resolve: `gatsby-plugin-typography`,
       options: {
