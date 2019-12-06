@@ -5,6 +5,8 @@ import { graphql, Link } from 'gatsby'
 
 import Layout from '../components/Layout'
 import BlogLink from '../components/BlogLink'
+import Img from ' gatsby-image'
+
 import './blogPost.css'
 
 const Template = ({ data, pageContext }) => {
@@ -19,6 +21,7 @@ const Template = ({ data, pageContext }) => {
           <BlogLink text="Back to Homepage" path="/" />
         </div>
         <h1 className="blogTitle">{title}</h1>
+        <Img fluid={post.image.fluid} />
         <div
           className="blogContent"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -49,6 +52,11 @@ export const query = graphql`
   query($pathSlug: String!) {
     contentfulPost(path: { eq: $pathSlug }) {
       title
+      image {
+        fluid {
+          ...GatsbyContentfulFluid
+        }
+      }
       content {
         childContentfulRichText {
           html
