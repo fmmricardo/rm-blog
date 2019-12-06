@@ -10,23 +10,20 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           query {
-            allMarkdownRemark(
-              sort: { order: ASC, fields: frontmatter___date }
-            ) {
+            allContentfulPost {
               edges {
                 node {
-                  frontmatter {
-                    path
-                  }
+                  path
+                  title
                 }
               }
             }
           }
         `
       ).then(result => {
-        const posts = result.data.allMarkdownRemark.edges
+        const posts = result.data.allContentfulPost.edges
         posts.forEach(({ node }, index) => {
-          const path = node.frontmatter.path
+          const path = node.path
           const previous =
             index === posts.length - 1 ? null : posts[index + 1].node
           const next = index === 0 ? null : posts[index - 1].node

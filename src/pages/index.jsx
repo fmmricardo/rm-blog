@@ -7,7 +7,7 @@ import Card from '../components/Card'
 import CardList from '../components/CardList'
 
 const IndexPage = ({ data }) => {
-  const { edges } = data.allMarkdownRemark
+  const { edges } = data.allContentfulPost
 
   return (
     <Layout>
@@ -15,7 +15,7 @@ const IndexPage = ({ data }) => {
       <CardList>
         {edges.map(edge => {
           const { id } = edge.node
-          const { date, excerpt, path, title } = edge.node.frontmatter
+          const { date, excerpt, path, title } = edge.node
           return (
             <Card
               data-test="card-attributes"
@@ -34,17 +34,14 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query HomepageQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allContentfulPost {
       edges {
         node {
           id
-          frontmatter {
-            title
-            path
-            excerpt
-            date(formatString: "MMMM DD, YYYY")
-            thumbnail
-          }
+          path
+          title
+          excerpt
+          date
         }
       }
     }
