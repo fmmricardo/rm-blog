@@ -7,7 +7,7 @@ excerpt: >-
   The challenge came after a 1-on-1 conversation and was the type of guidance
   that I had been seeking for a while. To put it briefly, the 9-week plan
   consists of establishing personal or professional goals during this period. 
-published: 'true'
+published: 'false'
 ---
 ![I'm here](/images/daniel-jensen-udlehdohbz8-unsplash.jpg "I'm here")
 
