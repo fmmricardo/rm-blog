@@ -12,6 +12,7 @@ import './blogPost.css'
 const Template = ({ data, pageContext }) => {
   const { next, previous } = pageContext
   const { contentfulPost } = data
+  const { image } = contentfulAsset.edges.node.fluid
   const { title } = contentfulPost.title
   const { html } = contentfulPost.content.childContentfulRichText
   return (
@@ -21,7 +22,7 @@ const Template = ({ data, pageContext }) => {
           <BlogLink text="Back to Homepage" path="/" />
         </div>
         <h1 className="blogTitle">{title}</h1>
-        <Img fluid={contentfulPost.image.fluid} />
+        <Img fluid={image} />
         <div
           className="blogContent"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -61,6 +62,13 @@ export const query = graphql`
         childContentfulRichText {
           html
         }
+      }
+    }
+  }
+  query MyAssets {
+    contentfulAsset {
+      fluid {
+        ...GatsbyContentfulFluid
       }
     }
   }
