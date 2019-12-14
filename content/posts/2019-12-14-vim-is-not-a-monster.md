@@ -1,5 +1,5 @@
 ---
-path: /content/posts/vim-is-not-a-monster-1
+path: /content/posts/vim-is-not-a-monster
 date: 2019-04-09T15:04:19.005Z
 title: Vim is not a monster.
 thumbnail: /img/commodore.jpg
