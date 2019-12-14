@@ -3,8 +3,8 @@ backend:
   repo: fmmricardo/rm-challge/
   branch: master
 
-media_folder: /content/images
-public_folder: /img
+media_folder: "/content/images"
+public_folder: "/images"
 
 collections:
   - name: "content"
