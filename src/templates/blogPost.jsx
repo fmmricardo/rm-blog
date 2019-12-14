@@ -52,10 +52,10 @@ const Template = ({ data, pageContext }) => {
 export const query = graphql`
   query($pathSlug: String!) {
     markdownRemark(frontmatter: { path: { eq: $pathSlug } }) {
-      html
       frontmatter {
         title
       }
+      html
     }
   }
 `
