@@ -11,6 +11,8 @@ excerpt: >-
   but in   general, people don’t want to go into it.
 published: 'true'
 ---
+
+
 ![Commodore](/img/commodore.jpg "Commodore")
 
 > The first time I heard about Vim I didn’t even know what it was. I started to
