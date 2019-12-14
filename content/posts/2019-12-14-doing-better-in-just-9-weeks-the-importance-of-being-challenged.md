@@ -100,5 +100,3 @@ Overall, this was more than successful, with the number of small steps I achieve
 Family support was essential to do all of this, but not less important all my friends at work and fat pros to Nikita.
 
 I found a way to push myself in every area and that means I will continue follow this methodology.
-
-Thanks for reading this post.
