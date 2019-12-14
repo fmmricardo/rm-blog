@@ -2,12 +2,12 @@
 path: /content/posts/from-chemical-to-frontend
 date: '2019-08-06'
 title: From Chemical Engineer to Front-End Developer
-thumbnail: '/content/images/commodore.jpg'
-
+thumbnail: /images/change.jpg
 excerpt: How I learned coding and entered the tech industry
+published: 'true'
 ---
 
-![](./change.jpg)
+![](./images/change.jpg)
 
 Photo by Ross Findon on Unsplash
 

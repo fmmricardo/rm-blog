@@ -2,16 +2,16 @@
 path: /contnet/posts/tnds-challenge-week
 date: '2018-08-01'
 title: TNDS Challenge Week
-thumbnail: /content/images/commodore.jpg
-
+thumbnail: /images/working_dev.jpg
 excerpt:
   In today’s tech space, having a healthy, well-maintained pattern library is
   considered a central piece of the design and development process, guiding
   designers and developers to better and more consistent results. This is why,
   on a recent project, we started working on a pattern library.
+published: 'true'
 ---
 
-![](./working_dev.jpg)
+![](./images/working_dev.jpg)
 
 This project started during the masterclass with Javier ‘Simón’ Cuello at The
 New Digital School. Javier is a UX designer specializing in mobile, currently
@@ -77,15 +77,15 @@ reuse them in future projects.
 We started by identifying some patterns such as Typography, buttons, cards,
 navbar, forms, and labels.
 
-![](./buttons.png)
+![](./images/buttons.png)
 
 Fig 1. Buttons from interface inventory
 
-![](./cards.png)
+![](./images/cards.png)
 
 Fig 2. UI card components collected from the website and mobile app prototype
 
-![](./cards_1.png)
+![](./images/cards_1.png)
 
 Fig 3.UI card components collected from the website and mobile app prototype
 
@@ -95,7 +95,7 @@ Astrum was the chosen one because it’s lightweight, easy to include in project
 and because it offers a command-line to manage components and groups. Astrum is
 also responsive and I loved how easy it was to customize the theme.
 
-![](./Pattern-library-overwiew.png)
+![](./images/Pattern-library-overwiew.png)
 
 Fig 4. Pattern library overview
 

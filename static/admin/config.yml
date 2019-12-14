@@ -21,3 +21,4 @@ collections:
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Description", name: "excerpt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { name: published, label: Published }

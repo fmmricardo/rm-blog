@@ -2,16 +2,18 @@
 path: /content/posts/vim-is-not-a-monster
 date: 2019-04-09
 title: Vim is not a monster.
-thumbnail: /content/images/commodore.jpg
+thumbnail: /images/commodore.jpg
 excerpt:
   The first time I heard about Vim I didn’t even know what it was. I started to
   search about that and asking around … and in general people avoid to use that.
   Some say it is time consuming learning vim, others don’t want to suffer,
   others say that you can really make your workflow more efficient, but in
   general, people don’t want to go into it.
+
+published: 'true'
 ---
 
-![](./commodore.jpg)
+![](./images/commodore.jpg)
 
 > The first time I heard about Vim I didn’t even know what it was. I started to
 > search about that and asking around … and in general people avoid to use that.
