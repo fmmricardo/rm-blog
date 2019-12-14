@@ -1,5 +1,5 @@
 ---
-path: /contnet/posts/tnds-challenge-week
+path: /content/posts/tnds-challenge-week
 date: '2018-08-01'
 title: TNDS Challenge Week
 thumbnail: /images/working_dev.jpg
