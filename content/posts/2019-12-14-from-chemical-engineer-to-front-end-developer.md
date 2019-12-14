@@ -6,7 +6,7 @@ thumbnail: /img/change.jpg
 excerpt: How I learned coding and entered the tech industry
 published: 'true'
 ---
-![](./images/change.jpg)
+![](./img/change.jpg)
 
 Photo by Ross Findon on Unsplash
 
