@@ -15,7 +15,7 @@ Photo by Ross Findon on Unsplash
 > depth, and I dedicated 100% of my time doing a course about front-end and UX
 > design.
 
-##Where It Began
+## Where It Began
 
 After nine years and two jobs, one as a chemistry analysis technician, the other
 as a chemical engineer, I decided to change my career. Along the way, I worked
@@ -30,7 +30,7 @@ awoke an insatiable interest.
 
 I always wanted more, and now I knew that programming was the perfect match.
 
-##The Transition From Chemistry to the Front End
+## The Transition From Chemistry to the Front End
 
 In my last year as a chemical engineer, I enrolled in some courses related to
 front-end development and built some small projects for friends. After some
@@ -44,7 +44,9 @@ also had the luck to find a mentor to guide me. It was crucial to have guidance
 from someone inside the industry and, coincidentally, another person without an
 IT background.
 
-##My Difficulties While Learning Hindrances are inevitable, but my biggest
+## My Difficulties While Learning 
+
+Hindrances are inevitable, but my biggest
 obstacles were focusing on one subject at the time, dealing with frustration,
 and finding an exciting project to contribute.
 
@@ -52,7 +54,9 @@ Even working as a front-end developer, I’m still learning, and I will keep
 learning during my entire career, and that was one of the reasons I decided to
 change.
 
-##What I Learned From This Journey Be in the right places! Networking is the
+## What I Learned From This Journey 
+
+Be in the right places! Networking is the
 best way to enter this world and meet the right people at the right time at the
 right place. It didn’t take me three months to learn something valuable and get
 a job; it took almost three years, and I still feel like I’m at the starting
