@@ -11,6 +11,8 @@ published: 'true'
 ---
 ![I'm here](/images/daniel-jensen-udlehdohbz8-unsplash.jpg "I'm here")
 
+Photo by Daniel Jensen on Unsplash
+
 The challenge came after a 1-on-1 conversation and was the type of guidance that I had been seeking for a while. 
 To put it briefly, the 9-week plan consists of establishing personal or professional goals during this period. 
 It’s an effective way to challenge yourself to learn things or define goals in a structured way, without losing focus. The key aspect is to see things happening and have the perception that sometimes we do more than we think, avoiding that feeling of “I did nothing productive this week …”. 
