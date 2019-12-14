@@ -27,6 +27,7 @@ module.exports = {
         name: 'images',
       },
     },
+    'gatsby-plugin-netlify-cms',
     {
       resolve: `gatsby-plugin-typography`,
       options: {
