@@ -19,7 +19,7 @@ published: 'true'
 > others say that you can really make your workflow more efficient, but in
 > general, people don’t want to go into it.
 
-\##Why I Choose Vim
+## Why I Choose Vim
 
 The rumours about the “end” of the Atom made me start thinking that I should
 start using VS code, but I wanted to try something different. In the company
@@ -45,7 +45,7 @@ That was the turning point, and since then, I’m forcing myself to use Vim
 exclusively. I know that it will slow down my workflow for a while, but I
 believe that soon, I will know enough to use Vim to my advantage.
 
-\##Pain points and findings
+## Pain points and findings
 
 After I made this decision, and because I’m a frontend developer, I started
 looking for a vim setup that fulfilled my frontend needs, and I found one.
@@ -62,7 +62,7 @@ but I see some improvements already. Besides that, I’m improving my skills on
 the terminal, and I started collecting information to “create” my .dotfiles and
 git-scripts.
 
-\##Some tips to learn vim
+## Some tips to learn vim
 
 Use post-its to learn the commands, and put them on the bottom of your screen.
 Remove them once you have these commands in your memory and you don’t need to
