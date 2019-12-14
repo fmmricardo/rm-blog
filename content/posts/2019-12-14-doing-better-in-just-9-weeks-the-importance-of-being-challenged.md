@@ -9,6 +9,8 @@ excerpt: >-
   consists of establishing personal or professional goals during this period. 
 published: 'true'
 ---
+![I'm here](/images/daniel-jensen-udlehdohbz8-unsplash.jpg "I'm here")
+
 The challenge came after a 1-on-1 conversation and was the type of guidance that I had been seeking for a while. 
 To put it briefly, the 9-week plan consists of establishing personal or professional goals during this period. 
 It’s an effective way to challenge yourself to learn things or define goals in a structured way, without losing focus. The key aspect is to see things happening and have the perception that sometimes we do more than we think, avoiding that feeling of “I did nothing productive this week …”. 
@@ -23,11 +25,9 @@ After choosing the goals, this follows the five whys methodology -  a questionin
 Coming up with the program was not easy, but I had the help of a PM and a team lead to better define my goals and tasks.
 Here is an example of how it looks: 
 
-
 ![Plan](/images/plan.png "The Plan")
 
 ![Time line ](/images/time-line.png "9 weeks time line ")
-
 
 ## The process
 
@@ -43,10 +43,7 @@ This plan has incredible flexibility, and that is one of the things that allow u
 
 One of my first goals was to be more proficient at JavaScript without depending on any framework. Still, after getting some feedback from my team lead, I changed it to start reading the react documentation from beginning to end. Inside me, I’m wasn’t doing the right thing, because I was very strict regarding the objective that I had set. As soon I began to deep dive into the documentation, I started to dive deeper and deeper into JavaScript concepts because they were showing up. Since I didn’t know what and how they worked, I had to research them.
 
-
-
 Things were becoming more and more exciting and meaningful to me, and who doesn’t like the feeling when things are starting to make sense.
-
 
 ## Main struggles
 
