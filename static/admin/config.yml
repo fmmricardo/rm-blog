@@ -3,19 +3,21 @@ backend:
   repo: fmmricardo/rm-challge/
   branch: master
 
-media_folder: static/img
+media_folder: /content/images
 public_folder: /img
 
 collections:
-  - name: "blog"
+  - name: "content"
     label: "blog"
-    folder: "src/content/posts/"
+    folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     editor:
      preview: false
     fields:
+      - { name: "path", label: "path",hint: 'E.g.: /chess-match'  }
+      - { label: "date", name: "date", widget: "date" }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Description", name: "excerpt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
