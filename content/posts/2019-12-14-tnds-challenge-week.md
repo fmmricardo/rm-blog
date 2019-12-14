@@ -17,7 +17,7 @@ New Digital School. Javier is a UX designer specializing in mobile, currently
 living in Barcelona, who has worked on app design projects for companies like
 Zara, Telefónica, and Yahoo and is also the co-author of Designing Mobile Apps.
 
-\## The challenge
+## The challenge
 
 As students at a school as alternative as The New Digital School (TNDS), it’s
 important for us to track our progress and set goals to define each one’s right
@@ -28,7 +28,7 @@ make some improvements on the way it worked. We also felt it was important to
 work on a real problem while developing our design and development skills.
 Working on this project could have an immediate impact for all students.
 
-\## Process
+## Process
 
 Between the masterclass and the challenge week, we came across more dilemmas.
 Already considering starting a design system, we needed to decide how we would
@@ -63,7 +63,7 @@ patterns are documented and accessible by designers and developers (including
 students). With this in mind, we decided it was worth it to explore the idea of
 creating a Pattern Library.
 
-\## The Pattern Library
+## The Pattern Library
 
 A pattern library consists of a collection of reusable Interface elements
 organized in a way that allows developers to see their visual look, behavior,
@@ -109,9 +109,9 @@ and try. By doing that I covered methodologies like Atomic Design, Block Element
 Modifier (BEM) and, implemented preprocessors like Sass and technologies like
 CSS grid.
 
-\## Takeaways 
+## Takeaways 
 
-\### Plan before doing
+### Plan before doing
 
 We spent a considerable amount of time planning ahead. This helped to avoid
 frustration at the end of the project.
@@ -149,7 +149,7 @@ much more.
   while allowing me to review and apply important methodologies and
   technologies, such as BEM, Sass, CSS Grid.
 
-\## Resources
+## Resources
 
 → [BEM](http://getbem.com/)
 
