@@ -1,5 +1,5 @@
 ---
-path: /content/posts/from-chemical-to-frontend-1
+path: /content/posts/from-chemical-to-frontend
 date: 2019-08-06T14:35:36.031Z
 title: From Chemical Engineer to Front-End Developer
 thumbnail: /img/change.jpg
