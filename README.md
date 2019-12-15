@@ -1,8 +1,8 @@
-[build-page]: https://semaphoreci.com/ricardofmm/rm-challenge
+[build-page]: https://semaphoreci.com/ricardofmm/rm-blog
 
 # Publishing Platform
 
-[![Build Status](https://semaphoreci.com/api/v1/projects/64991d2a-e7f5-4306-be71-0b2d6bbbd7ed/2852881/badge.svg)](https://semaphoreci.com/ricardofmm/rm-challenge)
+[![Build Status](https://semaphoreci.com/api/v1/projects/64991d2a-e7f5-4306-be71-0b2d6bbbd7ed/2852881/badge.svg)](https://semaphoreci.com/ricardofmm/rm-blog)
 
 - [Build Page][build-page]
 
@@ -36,8 +36,8 @@ npm i -g yarn
 First, clone & setup the repository:
 
 ```bash
-git clone git@github.com:fmmricardo/rm-challenge.git
-cd rm-challenge
+git clone git@github.com:fmmricardo/rm-blog.git
+cd rm-blog
 yarn start
 ```
 
