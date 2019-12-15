@@ -3,6 +3,7 @@ backend:
   repo: fmmricardo/rm-challge/
   branch: master
 
+publish_mode: editorial_workflow
 media_folder: "/content/images"
 public_folder: "/images"
 
@@ -12,13 +13,14 @@ collections:
     folder: "content/posts/"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: content/{{slug}}
     editor:
      preview: false
     fields:
-      - { name: "path", label: "path",hint: 'E.g.: /chess-match'  }
+      - { name: "path", label: "path",hint: 'E.g.: /content/posts/from-chemical-to-frontend'  }
+      - { name: "published", label: "Published" }
       - { label: "date", name: "date", widget: "date" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Description", name: "excerpt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { name: published, label: Published }
