@@ -27,7 +27,7 @@ After choosing the goals, this follows the five whys methodology -  a questionin
 Coming up with the program was not easy, but I had the help of a PM and a team lead to better define my goals and tasks.
 Here is an example of how it looks: 
 
-![Plan](/images/plan.png "The Plan")
+![Plan](/images/screenshot-2019-12-21-at-22.08.29.png "The Plan")
 
 ![Time line ](/images/time-line.png "9 weeks time line ")
 
@@ -97,6 +97,6 @@ Despite it not being be advisable to set more than four objectives, next time, I
 
 Overall, this was more than successful, with the number of small steps I achieved despite the things I didn't finish.
 
-Family support was essential to do all of this, but not less important all my friends at work and fat pros to Nikita.
+Family support was essential to do all of this, but not less important all my friends at work and fat props to Nikita.
 
 I found a way to push myself in every area and that means I will continue follow this methodology.
