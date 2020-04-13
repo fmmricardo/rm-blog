@@ -6,7 +6,7 @@ import './index.css'
 
 const BlogLink = ({ path, style, text }) => {
   return (
-    <div className={style}>
+    <div data-test="post-path" className={style}>
       <Link to={path}>{text}</Link>
     </div>
   )
@@ -17,6 +17,7 @@ Link.propTypes = {
   style: PropTypes.string,
   text: PropTypes.string,
 }
+
 Link.defaultProps = {
   path: null,
   text: null,

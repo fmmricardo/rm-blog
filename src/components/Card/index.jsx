@@ -6,7 +6,7 @@ import './index.css'
 
 const Card = ({ path, excerpt, title, date }) => {
   return (
-    <div className="card">
+    <div className="card" data-test="card-attributes">
       <div className="cardPostPreview">
         <Link className="cardPostTitle" data-test="post-title" to={path}>
           {title}

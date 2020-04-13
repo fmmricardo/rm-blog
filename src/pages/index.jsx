@@ -18,7 +18,6 @@ const IndexPage = ({ data }) => {
           const { date, excerpt, path, title } = edge.node.frontmatter
           return (
             <Card
-              data-test="card-attributes"
               key={id}
               path={path}
               title={title}
