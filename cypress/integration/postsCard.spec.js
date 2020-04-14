@@ -1,5 +1,5 @@
-describe('input form', () => {
-  it('verify if a post contains components', () => {
+describe('Test for post card', () => {
+  it('verify a post contains components', () => {
     cy.visit('http://localhost:8000/')
   })
 
