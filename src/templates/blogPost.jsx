@@ -16,11 +16,18 @@ const Template = ({ data, pageContext }) => {
     <Layout>
       <div className="blogWrapper">
         <div className="blogBackToHomepage">
-          <BlogLink text="Back to Homepage" path="/" />
+          <BlogLink
+            data-test="post-home-link"
+            text="Back to Homepage"
+            path="/"
+          />
         </div>
-        <h1 className="blogTitle">{title}</h1>
+        <h1 className="blogTitle" data-test="post-title">
+          {title}
+        </h1>
         <div
           className="blogContent"
+          data-test="post-body"
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <div className="blogNavigation">
@@ -34,7 +41,7 @@ const Template = ({ data, pageContext }) => {
             )}
           </div>
           <BlogLink style="homeLink" text="Home" path="/" />
-          <div>
+          <div data-test="post-navigation-links">
             {next && (
               <BlogLink
                 style="nextLink"
