@@ -1,6 +1,6 @@
 ---
 path: /content/posts/tnds-challenge-week
-date: 2019-08-01T15:04:19.005Z
+date: 2018-08-01T15:04:19.005Z
 title: TNDS Challenge Week
 thumbnail: /img/working_dev.jpg
 excerpt: >-
