@@ -1,6 +1,7 @@
 @import '../settings.css';
 
 .layout {
+  font-family: 'Open Sans', georgia, serif;
   display: flex;
   flex-direction: column;
   align-items: center;

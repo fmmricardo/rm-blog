@@ -1,0 +1,22 @@
+@import '../settings.css';
+
+.navbarLinks {
+  font-family: var(--font-family-lato);
+  display: flex;
+
+  margin: var(--size-24);
+
+  color: var(--color-snow-black);
+
+  font-size: var(--size-24);
+
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-32);
+
+  @media (--tablet-breakpoint) {
+    margin: var(--size-32) auto;
+  }
+}
+.navigationItem {
+  margin-right: var(--size-24);
+}

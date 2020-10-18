@@ -41,6 +41,8 @@
     "react-dom": "^16.8.6",
     "react-icons": "2.2.7",
     "react-typography": "^0.16.19",
+    "typeface-lato": "^1.1.13",
+    "typeface-open-sans": "^1.1.13",
     "typography": "^0.16.19"
   },
   "devDependencies": {

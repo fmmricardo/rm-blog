@@ -9,14 +9,12 @@
 
   color: var(--color-snow-black);
 
-  font-family: var(--font-family-monsterrat);
-
-  font-family: var(--font-family-monsterrat);
-
+  font-family: 'Open Sans', georgia, serif;
   grid-auto-flow: row;
 }
 
 .headerTitle {
+  font-family: var(--font-family-open-sans);
   font-size: var(--size-32);
   font-weight: var(--font-weight-bold);
   line-height: var(--size-42);

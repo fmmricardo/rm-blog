@@ -1,0 +1,15 @@
+@import '../settings.css';
+
+.text {
+  font-size: var(--size-14);
+  line-height: var(--size-18);
+  font-weight: normal;
+  text-align: justify;
+  margin-bottom: var(--size-18);
+  font-family: var(--font-family-open-sans);
+
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-18);
+    line-height: var(--size-24);
+  }
+}

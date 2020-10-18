@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
+import 'typeface-open-sans'
+
 import './index.css'
 
 const Card = ({ path, excerpt, title, date }) => {

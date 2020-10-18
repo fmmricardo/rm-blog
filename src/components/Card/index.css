@@ -7,13 +7,15 @@
   border-bottom: 1px solid #eee;
   color: var(--color-snow-black);
 
-  font-family: var(--font-family-monsterrat);
+  font-family: var(--font-family-lato);
+
   @media (--tablet-breakpoint) {
     padding: var(--size-32);
   }
 }
 
 .cardPostDate {
+  font-family: var(--font-family-lato);
   color: var(--color-gray);
 }
 
@@ -23,6 +25,7 @@
 }
 
 .cardPostTextPreview {
+  font-family: var(--font-family-open-sans);
   margin-top: 20px;
 
   font-size: var(--size-14);
@@ -38,6 +41,7 @@
 
   font-size: var(--size-18);
 
+  font-family: var(--font-family-lato);
   font-weight: var(--font-weight-bold);
   line-height: var(--size-24);
   text-decoration: none;

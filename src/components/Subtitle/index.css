@@ -1,0 +1,14 @@
+@import '../settings.css';
+
+.sectionSubtitle {
+  font-size: var(--size-14);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-18);
+  margin-bottom: var(--size-14);
+  font-family: var(--font-family-lato);
+
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-18);
+    line-height: var(--size-24);
+  }
+}

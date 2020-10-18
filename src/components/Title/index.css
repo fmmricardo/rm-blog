@@ -1,0 +1,14 @@
+@import '../settings.css';
+
+.title {
+  font-size: var(--size-32);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--size-42);
+  margin-bottom: var(--size-18);
+  font-family: var(--font-family-lato);
+
+  @media (--tablet-breakpoint) {
+    font-size: var(--size-32);
+    line-height: var(--size-42);
+  }
+}

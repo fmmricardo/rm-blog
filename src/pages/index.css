@@ -1,0 +1,5 @@
+@import '../components/settings.css';
+
+.sectionWrapper {
+  margin-bottom: var(--size-32);
+}

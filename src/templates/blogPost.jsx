@@ -1,10 +1,12 @@
 /* eslint-disable  */
 
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import BlogLink from '../components/BlogLink'
+import 'typeface-open-sans'
+
 import './blogPost.css'
 
 const Template = ({ data, pageContext }) => {
@@ -16,7 +18,7 @@ const Template = ({ data, pageContext }) => {
     <Layout>
       <div className="blogWrapper">
         <div className="blogBackToHomepage">
-          <BlogLink text="Back to Homepage" path="/" />
+          <BlogLink text="Back to Blog" path="/blog" />
         </div>
         <h1 className="blogTitle">{title}</h1>
         <div
