@@ -1,12 +1,14 @@
 @import '../settings.css';
 
 .navbarLinks {
-  font-family: var(--font-family-lato);
+
   display: flex;
 
   margin: var(--size-24);
 
   color: var(--color-snow-black);
+
+  font-family: var(--font-family-lato);
 
   font-size: var(--size-24);
 
