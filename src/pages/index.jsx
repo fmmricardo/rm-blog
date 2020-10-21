@@ -14,7 +14,7 @@ const IndexPage = () => {
       <div className="sectioBreak">
         <Title>About me</Title>
         <Text>
-          I'm a self-taught developer that came from a chemical engineering
+          I&apos;m a self-taught developer that came from a chemical engineering
           background in my previous. I worked in Germany the last 4 years and of
           the engineering career before decide to change. During this time, I
           had the opportunity to deal not only with the professional challenges
@@ -31,7 +31,7 @@ const IndexPage = () => {
           </p>
           <p>
             In January 2018, I joined the new Digital School program that is
-            tailored to and driven by each student's professional goals and
+            tailored to and driven by each student&apos;s professional goals and
             personal needs. It was a good place to work on personal and client
             projects, with the support and guidance of industry experts, a
             network of mentors and a team of facilitators. I learned design
